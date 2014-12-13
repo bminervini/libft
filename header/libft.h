@@ -4,6 +4,7 @@
 char*   ft_strnew(int csize);
 int     ft_strlen(char* str);
 void    ft_putstr(char* str);
+int     ft_intlen(int i)
 
 #endif
 
