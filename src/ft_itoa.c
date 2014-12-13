@@ -1,11 +1,11 @@
 char* ft_itoa(int i)
 {
-    int x=10;
-    char* n;
-    while(i%x!=i)
+    int inter,j=1;
+    char* c=ft_strnew(ft_intlen(i));
+    while(j!=ft_intlen(i)-1)
     {
-        n += ((i%x)+48);
-        x=x*10;
+        c[j]=i%10^j;
+        j++;
     }
-    return n;
+    return c;
 }
