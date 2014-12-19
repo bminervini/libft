@@ -3,9 +3,6 @@
 
 int main(int argc, char** argv)
 {
-
-    char* pointeur = ft_strnew(5);
-    ft_putstr(pointeur);
-    free(pointeur);
+    ft_putstr(ft_itoa(14235));
     return 0;
 }
