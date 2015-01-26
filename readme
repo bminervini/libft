@@ -1,0 +1,3 @@
+Pour utiliser la fonction "pow" de <math.h>, compiler avec l'option -lm
+
+Avant de git push, il faut git pull pour rapatrier le code internet en local (si plusieurs personnes travaillent sur le même dépot)

@@ -1,6 +1,6 @@
 int ft_strlen(char* c)
 {
-    int i;
+    int i = 0;
 
     while(c[i])
         i++;

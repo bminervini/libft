@@ -3,6 +3,11 @@
 
 int main(int argc, char** argv)
 {
-    ft_putstr(ft_itoa(14235));
+    char* s = "coucou";
+    char* r = NULL;
+    r = ft_strmap(s, &ft_putchar);
+    ft_putstr(r);
     return 0;
 }
+
+
